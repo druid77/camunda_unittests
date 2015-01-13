@@ -2,7 +2,7 @@ Unit tests related to Camunda.
 
 To run with async script task: 
 
-```mvn -Dtest=SimpleTestCase#simpleWithAsync test```
+**```mvn -Dtest=SimpleTestCase#simpleWithAsync test```**
 
 ```
 **** Running simple_with_async test...
