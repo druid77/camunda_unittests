@@ -2,6 +2,12 @@ Unit tests related to Camunda.
 
 ----
 
+To run "locking" test: 
+
+**```mvn -Dtest=SimpleTestCase#locking test```**
+
+----
+
 To run with async script task: 
 
 **```mvn -Dtest=SimpleTestCase#simpleWithAsync test```**
