@@ -7,15 +7,15 @@
       <bpmn2:outgoing>SequenceFlow_6</bpmn2:outgoing>
       <bpmn2:outgoing>SequenceFlow_7</bpmn2:outgoing>
     </bpmn2:parallelGateway>
-    <bpmn2:serviceTask id="ServiceTask_2" camunda:class="org.camunda.bpm.unittest.SimpleJavaDelegate" camunda:async="true" camunda:exclusive="false">
+    <bpmn2:serviceTask id="ServiceTask_2" camunda:class="org.camunda.bpm.unittest.SimpleJavaDelegate" camunda:async="true" camunda:exclusive="false" camunda:asyncAfter="true">
       <bpmn2:incoming>SequenceFlow_6</bpmn2:incoming>
       <bpmn2:outgoing>SequenceFlow_2</bpmn2:outgoing>
     </bpmn2:serviceTask>
-    <bpmn2:serviceTask id="ServiceTask_1" camunda:class="org.camunda.bpm.unittest.SimpleJavaDelegate" camunda:async="true" camunda:exclusive="false">
+    <bpmn2:serviceTask id="ServiceTask_1" camunda:class="org.camunda.bpm.unittest.SimpleJavaDelegate" camunda:async="true" camunda:exclusive="false" camunda:asyncAfter="true">
       <bpmn2:incoming>SequenceFlow_5</bpmn2:incoming>
       <bpmn2:outgoing>SequenceFlow_3</bpmn2:outgoing>
     </bpmn2:serviceTask>
-    <bpmn2:serviceTask id="ServiceTask_3" camunda:class="org.camunda.bpm.unittest.SimpleJavaDelegate" camunda:async="true" camunda:exclusive="false">
+    <bpmn2:serviceTask id="ServiceTask_3" camunda:class="org.camunda.bpm.unittest.SimpleJavaDelegate" camunda:async="true" camunda:exclusive="false" camunda:asyncAfter="true">
       <bpmn2:incoming>SequenceFlow_7</bpmn2:incoming>
       <bpmn2:outgoing>SequenceFlow_4</bpmn2:outgoing>
     </bpmn2:serviceTask>

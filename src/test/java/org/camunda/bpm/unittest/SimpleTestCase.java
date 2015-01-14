@@ -65,7 +65,7 @@ public class SimpleTestCase {
   @Test
   @Deployment(resources = {"locking.bpmn"})
   public void shouldExecuteProcess() {
-	System.out.println("Running locking test...");
+	System.out.println("**** Running locking test...");
     ProcessInstance processInstance = runtimeService().startProcessInstanceByKey("locking");
     
     try {
