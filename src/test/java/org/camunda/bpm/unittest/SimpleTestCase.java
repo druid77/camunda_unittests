@@ -62,7 +62,6 @@ public class SimpleTestCase {
     System.out.println("IS SUSP: " + processInstance.isSuspended());
   }
   
-  @Ignore
   @Test
   @Deployment(resources = {"locking.bpmn"})
   public void shouldExecuteProcess() {
